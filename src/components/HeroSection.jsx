@@ -25,7 +25,7 @@ import React from 'react';
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
-                <span className="block">Intelligent ERP Systems,</span>
+                <span className="block">Intelligent AI CRP Systems,</span>
                 <span className="block bg-clip-text text-transparent bg-gradient-to-r from-secondary via-[#50e3c2] to-white">
                   Purpose-Built for You.
                 </span>
