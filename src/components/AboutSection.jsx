@@ -31,7 +31,8 @@ import React from 'react';
                 variants={cardVariants}
                 className="text-lg text-gray-300 text-center max-w-3xl mx-auto mb-12"
               >
-                To transform how companies use data, processes, and people to deliver results — on time and on budget. We take a modular, client-centric approach, designing custom ERP architectures that integrate AI at every level.
+                To transform how construction companies use data, documents, and AI to deliver projects — on time, under budget, and with total clarity.
+We build client-centric, modular systems that integrate AI at every level of the construction lifecycle.
               </motion.p>
 
               <div className="grid md:grid-cols-3 gap-8">
@@ -41,7 +42,7 @@ import React from 'react';
                   </div>
                   <h3 className="text-2xl font-semibold text-center mb-3 text-white">Client-Centric Design</h3>
                   <p className="text-gray-400 text-center leading-relaxed">
-                    We assess your business goals, workflows, and tech stack to design a custom ERP architecture tailored to your needs.
+                    We partner with your team to understand your workflows, challenges, and goals — then tailor an ERP + AI architecture to fit your exact needs.
                   </p>
                 </motion.div>
 
@@ -51,7 +52,7 @@ import React from 'react';
                   </div>
                   <h3 className="text-2xl font-semibold text-center mb-3 text-white">AI at Every Level</h3>
                   <p className="text-gray-400 text-center leading-relaxed">
-                    From procurement automation and financial controls to predictive scheduling, our systems do more than manage — they think.
+                    From procurement insights to real-time risk detection and project forecasting, our AI doesn’t just support operations — it enhances how decisions are made.
                   </p>
                 </motion.div>
 
@@ -59,9 +60,9 @@ import React from 'react';
                   <div className="flex items-center justify-center mb-6 w-16 h-16 rounded-full bg-purple-500/20 text-purple-400 mx-auto">
                     <Brain size={32} />
                   </div>
-                  <h3 className="text-2xl font-semibold text-center mb-3 text-white">Purpose-Built Platforms</h3>
+                  <h3 className="text-2xl font-semibold text-center mb-3 text-white">Purpose-Built for Construction</h3>
                   <p className="text-gray-400 text-center leading-relaxed">
-                    Specializing in AI-powered, cloud-native ERPs for complex, project-driven environments like construction, logistics, and industrial services.
+                    Our platforms are designed for project-based industries — especially construction, EPC, logistics, and infrastructure — where clarity, speed, and control are critical.
                   </p>
                 </motion.div>
               </div>

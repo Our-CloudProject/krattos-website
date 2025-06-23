@@ -24,7 +24,7 @@ import React from 'react';
                   <span className="text-xl font-semibold text-white">KRATTOS AI</span>
                 </div>
                 <p className="text-sm">
-                  Intelligent ERP systems for complex, project-driven environments.
+                  Future-Ready ERP for Complex, High-Stakes Project Execution.
                 </p>
               </div>
               <div>
@@ -49,10 +49,10 @@ import React from 'react';
                   </a>
                 </div>
                 <p className="text-sm mt-4">
-                  123 AI Street, Innovation City, Techland
+                  Hadapsar, Pune City, Maharashtra, India - 411028
                 </p>
                 <p className="text-sm">
-                  Email: <a href="mailto:info@krattos.ai" className="hover:text-secondary">info@krattos.ai</a>
+                  Email: <a href="mailto:contact@jyainfottech.com" className="hover:text-secondary">contact@jyainfottech.com</a>
                 </p>
               </div>
             </div>

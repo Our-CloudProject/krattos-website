@@ -11,6 +11,12 @@ import React from 'react';
         }
       };
       
+      const scrollToContact = () => {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }; 
       return (
         <section className="relative py-20 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-transparent to-gray-900/80"></div>
@@ -25,13 +31,13 @@ import React from 'react';
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
-                <span className="block">AI CRP Systems,</span>
+                <span className="block">More Than ERP</span>
                 <span className="block bg-clip-text text-transparent bg-gradient-to-r from-secondary via-[#50e3c2] to-white">
-                  Purpose-Built for You.
+                  Your Smartest Construction Manager
                 </span>
               </h1>
               <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-300 mb-10">
-                Empowering businesses to move faster, work smarter, and operate with greater precision through AI-powered, cloud-native ERP platforms.
+                An AI-powered assistant that connects your project data, documents, and decisions — all in one place.
               </p>
               <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <motion.div
@@ -50,9 +56,13 @@ import React from 'react';
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  {/* <Button size="lg" variant="outline" className="text-gray-200 border-gray-400 hover:bg-white/10 hover:border-white transform transition-all duration-300 ease-in-out">
-                    <Zap className="mr-2 h-5 w-5 text-yellow-400" /> How AI Transforms ERP
-                  </Button> */}
+                  <Button 
+                    size="lg" 
+                    className="bg-gradient-to-r from-secondary to-[#1abc9c] hover:from-[#1abc9c] hover:to-secondary text-primary-foreground shadow-lg transform transition-all duration-300 ease-in-out"
+                    onClick={scrollToContact}
+                  >
+                    Book a Free Demo <ArrowRight className="ml-2 h-5 w-8" />
+                  </Button>
                 </motion.div>
               </div>
             </motion.div>

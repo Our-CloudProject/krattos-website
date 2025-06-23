@@ -7,25 +7,25 @@ import React from 'react';
       {
         icon: <Layers className="h-10 w-10 text-secondary mb-4" />,
         title: 'Modular ERP Architecture',
-        description: 'Flexible, adaptable systems designed to grow with your business. No one-size-fits-all solutions.',
+        description: 'Get adaptable, scalable ERP modules tailored to your project model — no rigid systems, just seamless fit.',
         color: 'secondary'
       },
       {
         icon: <CloudCog className="h-10 w-10 text-blue-400 mb-4" />,
         title: 'Cloud-Native & AI-Powered',
-        description: 'Leverage the scalability of the cloud and the intelligence of AI for unparalleled efficiency.',
+        description: 'Built on modern cloud infrastructure, our AI-first systems ensure security, scalability, and performance — anytime, anywhere.',
         color: 'blue-400'
       },
       {
         icon: <BarChart3 className="h-10 w-10 text-green-400 mb-4" />,
         title: 'Predictive Intelligence',
-        description: 'Gain insights from predictive scheduling, project intelligence, and automated financial controls.',
+        description: 'Use AI to uncover risks, delays, and cost overruns before they happen — across schedules, procurement, and finance.',
         color: 'green-400'
       },
       {
         icon: <SlidersHorizontal className="h-10 w-10 text-purple-400 mb-4" />,
         title: 'Custom Integrations',
-        description: 'Seamlessly integrate with your current tech stack for a unified operational view.',
+        description: 'Connect with existing systems like SAP, Oracle, Procore, and SharePoint for a unified, real-time view of your operations.',
         color: 'purple-400'
       },
     ];
@@ -57,7 +57,7 @@ import React from 'react';
                 Our Core <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary to-white">Services</span>
               </h2>
               <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto mb-16">
-                We deliver intelligent solutions that adapt to your unique business challenges and drive tangible results through these key service areas.
+                We offer modular, future-proof AI solutions that help you gain control of complexity and turn data into action.
               </p>
             </motion.div>
 

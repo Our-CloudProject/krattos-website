@@ -37,9 +37,9 @@ import React, { useState } from 'react';
       };
 
       const contactInfo = [
-        { icon: <Mail className="h-6 w-6 text-secondary" />, text: "info@krattos.ai", href: "mailto:info@krattos.ai" },
-        { icon: <Phone className="h-6 w-6 text-secondary" />, text: "+1 (555) 123-4567", href: "tel:+15551234567" },
-        { icon: <MapPin className="h-6 w-6 text-secondary" />, text: "123 AI Street, Innovation City, Techland" },
+        { icon: <Mail className="h-6 w-6 text-secondary" />, text: "contact@jyainfottech.com", href: "mailto:contact@jyainfottech.com" },
+        // { icon: <Phone className="h-6 w-6 text-secondary" />, text: "+1 (555) 123-4567", href: "tel:+15551234567" },
+        { icon: <MapPin className="h-6 w-6 text-secondary" />, text: "Hadapsar, Pune City, Maharashtra, India - 411028" },
       ];
 
       return (
@@ -55,7 +55,7 @@ import React, { useState } from 'react';
                 Get In <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary to-white">Touch</span>
               </h2>
               <p className="text-lg text-gray-300 text-center max-w-2xl mx-auto mb-12">
-                Have questions or ready to start your AI-powered ERP journey? We'd love to hear from you.
+                Have questions or ready to start your AI-powered ERP journey? <br/>We'd love to hear from you.
               </p>
             </motion.div>
 
@@ -81,7 +81,7 @@ import React, { useState } from 'react';
                 ))}
                 <div className="mt-8">
                   <p className="text-xl font-semibold text-white mb-3">Office Hours:</p>
-                  <p className="text-gray-300">Monday - Friday: 9 AM - 6 PM (Techland Time)</p>
+                  <p className="text-gray-300">Monday - Friday: 9 AM - 6 PM (IST)</p>
                 </div>
               </motion.div>
 
