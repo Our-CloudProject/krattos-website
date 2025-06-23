@@ -32,7 +32,7 @@ import React from 'react';
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
                 <span className="block">More Than ERP</span>
-                <span className="block bg-clip-text text-transparent bg-gradient-to-r from-secondary via-[#50e3c2] to-white">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary via-[#50e3c2] to-white">
                   Your Smartest Construction Manager
                 </span>
               </h1>
