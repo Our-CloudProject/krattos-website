@@ -11,7 +11,7 @@ import React from 'react';
       const sections = [
         { id: 'hero', label: 'Home' },
         { id: 'about', label: 'About' },
-        { id: 'services', label: 'Services' },
+        { id: 'services', label: 'Products' },
         { id: 'contact', label: 'Contact' },
       ];
 

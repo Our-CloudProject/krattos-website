@@ -54,7 +54,7 @@ import React from 'react';
               transition={{ duration: 0.7 }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-                Our Core <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary to-white">Services</span>
+                Our Core <span className="bg-clip-text text-transparent bg-gradient-to-r from-secondary to-white">Products</span>
               </h2>
               <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto mb-16">
                 We offer modular, future-proof AI solutions that help you gain control of complexity and turn data into action.

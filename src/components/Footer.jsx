@@ -31,7 +31,7 @@ import React from 'react';
                 <p className="text-white font-semibold mb-3">Quick Links</p>
                 <ul className="space-y-2 text-sm">
                   <li><button onClick={() => scrollToSection('about')} className="hover:text-secondary transition-colors">About Us</button></li>
-                  <li><button onClick={() => scrollToSection('services')} className="hover:text-secondary transition-colors">Services</button></li>
+                  <li><button onClick={() => scrollToSection('services')} className="hover:text-secondary transition-colors">Products</button></li>
                   <li><button onClick={() => scrollToSection('contact')} className="hover:text-secondary transition-colors">Contact</button></li>
                 </ul>
               </div>
